@@ -2,20 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
 
+  picture img {
+  display: block;
+  margin: 200px auto;
+  max-width: 100%;
+}
+}
+ 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #F2D2BD;
-  color: #ff00ea;
+ 
+
+  font-family: Georgia, sans-serif;
+  background-color: #DDC38A;
+  color: #86531A;
   line-height: 1.6;
 }
 
 nav {
-  background-color: #ff00ea;
+  background-color: #8F7832;
   padding: 15px 30px;
 }
-
 nav ul {
   list-style: none;
   display: flex;
@@ -35,7 +42,7 @@ nav ul li a:hover {
 h1 {
   text-align: center;
   margin: 30px 0 20px;
-  color: #333;
+  color: #A37800;
 }
 
 p {
@@ -57,7 +64,7 @@ ul li {
 }
 
 footer {
-  background-color: #ff00ea;
+  background-color: #86531A;
   color: white;
   text-align: center;
   padding: 20px;
